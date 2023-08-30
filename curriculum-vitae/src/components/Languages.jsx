@@ -1,7 +1,7 @@
 import es from '../assets/languages/es.png'
 import en from '../assets/languages/en.png'
 
-function Languages(){
+function Languages({ dark }){
     return(
         <section className="bg-white text-center font-robotoBold py-[75px] ">
             <h1 className="text-2xl">Comunication:</h1>

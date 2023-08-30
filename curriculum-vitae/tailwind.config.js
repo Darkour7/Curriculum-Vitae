@@ -6,6 +6,7 @@ export default {
       violet: '#52489C',
       lightblue: '#59C3C3',
       white: '#fff',
+      black: '#000',
     },
     fontFamily: {
       robotoBold: ['RobotoMono-Bold', 'monospace'],
