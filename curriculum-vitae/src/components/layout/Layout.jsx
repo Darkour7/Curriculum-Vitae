@@ -1,13 +1,15 @@
+import Bubble from "./Bubble"
 import Header from "./Header"
 
 // eslint-disable-next-line react/prop-types
-function Layout ({ children, dark , toggled}){
+function Layout ({ children }){
     return(
         <>
-            <Header dark={dark} toggled={toggled}/>
-            <main>
+            <Header />
+            <main className="bg-gray">
                 {children}
             </main>
+            <Bubble/>
         </>
     )
 }

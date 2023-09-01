@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import me from '../assets/me.png'
+import me from '../../../assets/me.png'
+import { useMode } from '../../../hooks/ModeProvider'
 
-// eslint-disable-next-line react/prop-types
-function Hero({dark}){
+function Hero(){
+    const {dark} = useMode()
     return(
         <section className={`h-[90vh]  relative ${dark ? ' bg-gradient-to-br from-black from-50% to-violet duration-1000 ' : '  bg-gradient-to-br  from-violet from-50% to-lightblue duration-1000 '}  `} >
-            <div className="text-white text-5xl font-robotoBold leading-loose absolute top-[40%] translate-y-[-50%] left-[10%] animate-fade-in-up">
+            <div className="text-white select-none text-5xl font-robotoBold leading-loose absolute top-[40%] translate-y-[-50%] left-[10%] animate-fade-in-up">
                 <h1> Hi, my name is </h1>
                 <h1> Pablo Maguiña Apaza !</h1>
                 <h2 className="text-2xl"> I'm 21 and soon will be an Informatics Engineer </h2>
