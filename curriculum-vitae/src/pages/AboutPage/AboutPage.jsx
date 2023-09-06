@@ -1,7 +1,13 @@
-function AboutPage(){
-    return(
+import Education from './components/Education'
+import Languages from './components/Languages'
+import Skills from './components/Skills'
+
+function AboutPage() {
+    return (
         <>
-            <span>Acerca de</span>
+            <Languages />
+            <Skills />
+            <Education />
         </>
     )
 }

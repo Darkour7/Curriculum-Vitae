@@ -1,4 +1,4 @@
-import py from '../../../assets/skills/python.jpg'
+import py from '../../../assets/skills/python.png'
 import ja from '../../../assets/skills/java.png'
 import c from '../../../assets/skills/c.png'
 import css from '../../../assets/skills/css.png'

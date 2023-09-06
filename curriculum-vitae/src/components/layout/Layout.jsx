@@ -6,7 +6,7 @@ function Layout ({ children }){
     return(
         <>
             <Header />
-            <main className="bg-gray">
+            <main className="bg-gray over" style={{scrollbarGutter: 'stable'}}>
                 {children}
             </main>
             <Bubble/>

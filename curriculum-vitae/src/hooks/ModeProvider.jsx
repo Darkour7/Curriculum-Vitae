@@ -4,7 +4,7 @@ export const ModeContext= createContext(null)
 
 // eslint-disable-next-line react/prop-types
 export const ModeProvider = ({children}) =>{
-    const [dark, setDark] = useState('dark')
+    const [dark, setDark] = useState(false)
     const toggleDarkMode = ()=>{
         setDark(!dark)
       }
